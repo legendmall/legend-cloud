@@ -9,7 +9,7 @@
 
 	<parent>
 		<groupId>com.legendshop</groupId>
-		<artifactId>dev</artifactId>
+		<artifactId>legendcloud</artifactId>
 		<version>LS.7.0.0</version>
 	</parent>
 

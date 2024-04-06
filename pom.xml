@@ -5,11 +5,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.legendshop</groupId>
-	<artifactId>dev</artifactId>
+	<artifactId>legendcloud</artifactId>
 	<version>LS.7.0.0</version>
 	<packaging>pom</packaging>
 
 	<properties>
+		<java.version>17</java.version>
 		<!-- Legendshop核心包版本 -->
 		<legendshop.version>LS.7.0.0</legendshop.version>
 		<jpaplus.version>7.0.0.0</jpaplus.version>
@@ -31,7 +32,7 @@
 		<swagger.fox.version>2.9.2</swagger.fox.version>
 		<swagger.core.version>1.5.22</swagger.core.version>
 		<knife4j.version>4.3.0</knife4j.version>
-		<spring.checkstyle.version>0.0.23</spring.checkstyle.version>
+		<spring.checkstyle.version>0.0.22</spring.checkstyle.version>
 		<hutool.version>5.8.22</hutool.version>
 		<jasypt.version>3.0.3</jasypt.version>
 		<mapstruct.version>1.5.0.RC1</mapstruct.version>
@@ -40,7 +41,7 @@
 		<lombok-mapstruct-binding.version>0.2.0</lombok-mapstruct-binding.version>
 		<docker.registry>harbor.legendshop.cn</docker.registry>
 		<docker.host>http://192.168.0.142:2375</docker.host>
-		<docker.namespace>legendshop6.0</docker.namespace>
+		<docker.namespace>legendshop7.0</docker.namespace>
 		<docker.username>legendshop</docker.username>
 		<docker.password>S018Fu3Nm4BxFqEW</docker.password>
 		<docker.plugin.version>0.32.0</docker.plugin.version>
@@ -102,10 +103,10 @@
 			<artifactId>spring-cloud-starter-bootstrap</artifactId>
 			<version>${spring.cloud.starter.bootstrap.version}</version>
 		</dependency>
-		<dependency>
+<!--		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-loadbalancer</artifactId>
-		</dependency>
+		</dependency>-->
 	</dependencies>
 
 	<dependencyManagement>
@@ -563,11 +564,12 @@
 				<version>${spring.checkstyle.version}</version>
 			</plugin>
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.6.1</version>
+				<version>3.8.1</version>
 				<configuration>
-					<target>17</target>
-					<source>17</source>
+					<target>${java.version}</target>
+					<source>${java.version}</source>
 					<encoding>UTF-8</encoding>
 					<skip>true</skip>
 					<annotationProcessorPaths>
