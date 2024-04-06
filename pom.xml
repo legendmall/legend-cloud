@@ -501,12 +501,12 @@
 
 	<build>
 		<finalName>${project.name}</finalName>
-		<resources>
+<!--		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
 				<filtering>true</filtering>
 			</resource>
-		</resources>
+		</resources>-->
 
 		<pluginManagement>
 			<plugins>
