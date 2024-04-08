@@ -1,7 +1,7 @@
 [comment]: <> (<p align="center"><img src="./readme/legend-logo.png" height="300" width="400" alt="logo"/></p>)
 ![输入图片说明](./readme/legend-logo.jpg)
 
-<h2 align="center">Legend 企业级开源商城系统</h2>
+<h2 align="center">基于Spring Cloud Alibaba的企业级开源商城系统</h2>
 <h4 align="center">全新升级 &nbsp; | &nbsp;  SpringBoot3.1.x  &nbsp; | &nbsp;  JDK17 &nbsp; | &nbsp; 全新Spring Cloud版本</h4>
 <h4 align="center">基于 Spring Authorization Server 全新适配 OAuth 2.1 协议的企业级微服务架构</h4>
 
