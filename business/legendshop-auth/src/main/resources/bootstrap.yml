@@ -8,11 +8,11 @@ spring:
     nacos:
       discovery:
         server-addr: ${NACOS_HOST:http://localhost}:${NACOS_PORT:8848}
-        namespace: ${NACOS_NAMESPACE:legend_cloud}
+        namespace: ${NACOS_NAMESPACE:legend-cloud}
         username: ${NACOS_USERNAME:nacos}
         password: ${NACOS_PASSWORD:nacos}
       config:
-        namespace: ${NACOS_NAMESPACE:legend_cloud}
+        namespace: ${NACOS_NAMESPACE:legend-cloud}
         username: ${NACOS_USERNAME:nacos}
         password: ${NACOS_PASSWORD:nacos}
         server-addr: ${spring.cloud.nacos.discovery.server-addr}

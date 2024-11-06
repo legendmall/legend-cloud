@@ -1,5 +1,7 @@
 [comment]: <> (<p align="center"><img src="./readme/legend-logo.png" height="300" width="400" alt="logo"/></p>)
-![输入图片说明](./readme/legend-logo.jpg)
+
+[comment]: <> (![输入图片说明]&#40;./readme/legend-logo.jpg&#41;)
+![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/legend-logo.jpg)
 
 <h2 align="center">基于Spring Cloud Alibaba的企业级开源商城系统</h2>
 <h4 align="center">全新升级 &nbsp; | &nbsp;  SpringBoot3.1.x  &nbsp; | &nbsp;  JDK17 &nbsp; | &nbsp; 全新Spring Cloud版本</h4>
@@ -21,8 +23,8 @@
     <a href="https://www.legendshop.cn"><img src="https://visitor-badge.laobi.icu/badge?page_id=legend-cloud&title=Total%20Visits" alt="Total Visits"></a>
 <a href='https://gitee.com/legendmall/legend-cloud/stargazers'><img src='https://gitee.com/legendmall/legend-cloud/badge/star.svg?theme=dark' alt='star'></img></a>
 <a href='https://gitee.com/legendmall/legend-cloud/members'><img src='https://gitee.com/legendmall/legend-cloud/badge/fork.svg?theme=dark' alt='fork'></img></a>
-    <a href="https://gitee.com/legendmall/legend-cloud"><img src="https://img.shields.io/github/stars/legendmall/legend-cloud?style=flat&logo=github" alt="Github star"></a>)
-    <a href="https://gitee.com/legendmall/legend-cloud"><img src="https://img.shields.io/github/forks/legendmall/legend-cloud?style=flat&logo=github" alt="Github fork"></a>
+    <a href="https://github.com/legendmall/legend-cloud"><img src="https://img.shields.io/github/stars/legendmall/legend-cloud?style=flat&logo=github" alt="Github star"></a>)
+    <a href="https://github.com/legendmall/legend-cloud"><img src="https://img.shields.io/github/forks/legendmall/legend-cloud?style=flat&logo=github" alt="Github fork"></a>
 </p>
 <p align="center">
     <a href="https://github.com/legendmall/legend-cloud">Github 仓库</a> &nbsp; | &nbsp;
@@ -41,7 +43,7 @@ Legend Cloud 是一款企业级微服务架构电商系统，全面拥抱Spring�
 
 ## 总体架构
 
-![输入图片说明](./readme/architecture.jpg)
+![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/architecture.jpg)
 
 ## 启动文档
 - <a href="https://gitee.com/legendmall/legend-cloud/wikis/pages/preview?sort_id=9258245&doc_id=4914160"> 快速启动（后端项目） </a>
@@ -51,23 +53,23 @@ Legend Cloud 是一款企业级微服务架构电商系统，全面拥抱Spring�
 - 商城商家端：https://mall-shop.legendshop.cn/
 - 以下为微信H5端、小程序、公众号（扫码获取平台端、商家端体验账号）
 
-![输入图片说明](./readme/wp-h5-code.png) ![输入图片说明](./readme/mp-code.jpg)  ![输入图片说明](./readme/wp-code.jpg)
+![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-h5-code.png) ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/mp-code.jpg)  ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-code.jpg)
 -
 > 部分功能演示视图，正在添加中
 
 - 用户端截图
-  ![输入图片说明](./readme/h5-1.png)
-  ![输入图片说明](./readme/h5-2.png)
-  ![输入图片说明](./readme/h5-4.png)
+  ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/h5-1.png)
+  ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/h5-2.png)
+  ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/h5-4.png)
 
 
 - 平台端演示截图
 
-  ![输入图片说明](./readme/admin-1.gif)
+  ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/admin-1.gif)
 
 
 - 商家端演示截图
-  ![输入图片说明](./readme/shop-1.gif)
+  ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/shop-1.gif)
 ## 功能版本介绍
 
 <a href="https://code.legendshop.cn">详情见官方网站>>>>>>></a>
@@ -166,9 +168,12 @@ legend-cloud
 ## 相关项目地址
 
 - B2C单体版地址(暂未开源,敬请期待)：[https://gitee.com/legendmall/legend](https://gitee.com/legendmall/legend)
-- 前端-平台端工程地址：[https://gitee.com/legendmall/legend-cloud-admin-ui](https://gitee.com/legendmall/legend-cloud-admin-ui)
-- 前端-商家端工程地址：[https://gitee.com/legendmall/legend-cloud-shop-ui](https://gitee.com/legendmall/legend-cloud-shop-ui)
-- 前端-用户端工程地址：[https://gitee.com/legendmall/legend-cloud-user-ui](https://gitee.com/legendmall/legend-cloud-user-ui)
+- 前端-平台端工程Gitee地址：[https://gitee.com/legendmall/legend-cloud-admin-ui](https://gitee.com/legendmall/legend-cloud-admin-ui)
+- 前端-商家端工程Gitee地址：[https://gitee.com/legendmall/legend-cloud-shop-ui](https://gitee.com/legendmall/legend-cloud-shop-ui)
+- 前端-用户端工程Gitee地址：[https://gitee.com/legendmall/legend-cloud-user-ui](https://gitee.com/legendmall/legend-cloud-user-ui)
+- 前端-平台端工程Github地址：[https://gitee.com/legendmall/legend-cloud-admin-ui](https://github.com/legendmall/legend-cloud-admin-ui)
+- 前端-商家端工程Github地址：[https://gitee.com/legendmall/legend-cloud-shop-ui](https://github.com/legendmall/legend-cloud-shop-ui)
+- 前端-用户端工程Github地址：[https://gitee.com/legendmall/legend-cloud-user-ui](https://github.com/legendmall/legend-cloud-user-ui)
 
 ## 技术解析
 > 后续阶段性推出一些企业级验证的技术解析文章，敬请期待
