@@ -103,10 +103,10 @@
 			<artifactId>spring-cloud-starter-bootstrap</artifactId>
 			<version>${spring.cloud.starter.bootstrap.version}</version>
 		</dependency>
-<!--		<dependency>
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-loadbalancer</artifactId>
-		</dependency>-->
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
@@ -501,12 +501,12 @@
 
 	<build>
 		<finalName>${project.name}</finalName>
-<!--		<resources>
+		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
 				<filtering>true</filtering>
 			</resource>
-		</resources>-->
+		</resources>
 
 		<pluginManagement>
 			<plugins>
