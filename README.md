@@ -198,6 +198,8 @@ legend-cloud
 5. 登录 Gitee 在你首页可以看到一个 pull request 按钮，点击它，填写一些说明信息，然后提交即可。
 6. 等待维护者合并
 
+计划升级到spring cloud 2023
+
 ## 交流反馈
 
 - Legend Cloud 官网 https://code.legendshop.cn
