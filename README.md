@@ -48,6 +48,12 @@ Legend Cloud 是一款企业级微服务架构电商系统，全面拥抱Spring�
 ## 启动文档
 - <a href="https://gitee.com/legendmall/legend-cloud/wikis/pages/preview?sort_id=9258245&doc_id=4914160"> 快速启动（后端项目） </a>
 
+## 本地账号
+- 商城后台管理：admin a123456
+- 商城商家端：13800138000 a123456
+- H5端： 19820286048 a123456（建议自行注册和管理）
+- 以下为微信H5端、小程序、公众号（扫码获取平台端、商家端体验账号）
+
 ## 演示地址
 - 商城后台管理：https://mall-admin.legendshop.cn/
 - 商城商家端：https://mall-shop.legendshop.cn/
