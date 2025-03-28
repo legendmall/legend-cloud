@@ -994,6 +994,7 @@ public class SearchProductServiceImpl implements SearchProductService {
 			co.elastic.clients.elasticsearch.core.SearchRequest.Builder searchBuilder = new co.elastic.clients.elasticsearch.core.SearchRequest.Builder();
 			// 3、在原有的搜索结果进行聚合
 			searchBuilder
+					.index(searchProperties.getProductIndexName())
 					.query(q -> q.bool(basicQuery));
 
 			log.info("specResp{}", specResp);

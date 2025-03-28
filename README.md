@@ -1,9 +1,11 @@
 [comment]: <> (<p align="center"><img src="./readme/legend-logo.png" height="300" width="400" alt="logo"/></p>)
 
 [comment]: <> (![输入图片说明]&#40;./readme/legend-logo.jpg&#41;)
-![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/legend-logo.jpg)
+[// 冯]: # ()
+[//]: # (![输入图片说明]&#40;https://dev6-images.legendshop.cn/miniprogram/static/images/readme/legend-logo.jpg&#41;)
 
-<h2 align="center">基于Spring Cloud Alibaba的企业级开源商城系统</h2>
+[// 冯]: # ()
+<h1 align="center">基于Spring Cloud Alibaba的企业级开源商城系统</h1>
 <h4 align="center">全新升级 &nbsp; | &nbsp;  SpringBoot3.1.x  &nbsp; | &nbsp;  JDK17 &nbsp; | &nbsp; 全新Spring Cloud版本</h4>
 <h4 align="center">基于 Spring Authorization Server 全新适配 OAuth 2.1 协议的企业级微服务架构</h4>
 
@@ -35,26 +37,53 @@
 <h3 align="center"> 如果您觉得有帮助，请点右上角 "Star" 支持一下，万分感谢！</h3>
 
 ---
+[// 冯]: # ()
+<div id="fzq">
+    <p style="padding: 0 1em;
+      padding-top: 0px;
+      padding-right: 1em;
+      padding-bottom: 0px;
+      padding-left: 1em;
+      color: #6a737d;
+      border-left: 0.25em solid #dfe2e7;">
+        在现有条件允许的范围内，应当尽可能提升Web开发团队的工作效能，充分释放其技术潜力。
+    </p>
+    <p style="padding-top:10px">
+        项目详细业务请移步至官网👇：
+    </p>
+    <a href="https://www.legendshop.cn/">https://www.legendshop.cn/</a>
+</div>
 
-## 企业级微服务架构电商系统
+[// 冯]: # ()
+## 📃商城系统介绍
 
-Legend Cloud 是一款企业级微服务架构电商系统，全面拥抱Spring全家桶，基于Spring 6.0.13 、Spring Boot 3.1.5、Spring Cloud 2022.0.4、Spring Authorization Server 1.1.3、Spring Cloud Alibaba 2022.0.0.0、Nacos 2.2.1 等主流技术栈开发的B2B2C电商系统，遵循SpringBoot 编程思想，高度模块化和可配置化。具备服务发现、配置、熔断、限流、降级、监控、多级缓存、分布式事务、等功能。
+我们具有丰富多元的商业模式可以解决您任何使用场景的需求，服务的范围有s2b2c供应链商城、b2b2c多商户商城、社区拼团、社区团购、b2c单商户商城、b2b批发商城等等，众多商业模式中并含有限时秒杀、优惠券、满减、砍价、多级分销、套餐、拼团、消费返利、平台抽佣、储值、同城配送、到店自提、库存、代销、还有个性化diy装修服务， 自带供应链，客服体系，高效管理，轻松运营
+
+## 📞关键内容
+【企业级开源商城系统，助力电商业务高效启航！】 <br>
+✔️ 基于主流技术框架开发，代码规范/注释清晰/架构严谨<br>
+✔️ 支持S2B2C、B2B2C、B2C、O2O多模式自由组合<br>
+✔️ 商业版源码即购即用，提供完整技术文档与接口说明<br>
+✔️ 专业团队支持系统演示、定制二开与深度合作<br>
+扫码添加技术顾问微信（备注"商城合作"，"购买源码"，"系统演示/试用"  等等）<br>
+![cocoimg.jpg](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/cocoimg.jpg)
+![xiaoyang.jpg](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/xiaoyang.jpg) <br>
+获取：① 系统Demo体验 ② 商业授权方案 ③ 项目合作通道<br>
 
 
-## 总体架构
 
-![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/architecture.jpg)
+[// 冯]: # ()
 
-## 启动文档
-- <a href="https://gitee.com/legendmall/legend-cloud/wikis/pages/preview?sort_id=9258245&doc_id=4914160"> 快速启动（后端项目） </a>
-
-## 演示地址
+## 🔗演示地址
 - 商城后台管理：https://mall-admin.legendshop.cn/
-- 商城商家端：https://mall-shop.legendshop.cn/
-- 以下为微信H5端、小程序、公众号（扫码获取平台端、商家端体验账号）
+  - 商城商家端：https://mall-shop.legendshop.cn/
+  - 以下为微信小程序、公众号、H5端（扫码获取平台端、商家端体验账号）
 
-![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-h5-code.png) ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/mp-code.jpg)  ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-code.jpg)
--
+
+![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/mp-code.jpg)
+![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-code.jpg)
+![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-h5-code.png)
+
 > 部分功能演示视图，正在添加中
 
 - 用户端截图
@@ -67,9 +96,27 @@ Legend Cloud 是一款企业级微服务架构电商系统，全面拥抱Spring�
 
   ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/admin-1.gif)
 
-
 - 商家端演示截图
   ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/shop-1.gif)
+  ![b2ad49985dbc735f679649c815cfe9e.png](doc/img/常见问题及处理/b2ad49985dbc735f679649c815cfe9e.png)
+  ![img_5.png](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/img_5.png)
+
+[// 冯]: # ()
+## 🏢企业级微服务架构电商系统
+
+Legend Cloud 是一款企业级微服务架构电商系统，全面拥抱Spring全家桶，基于Spring 6.0.13 、Spring Boot 3.1.5、Spring Cloud 2022.0.4、Spring Authorization Server 1.1.3、Spring Cloud Alibaba 2022.0.0.0、Nacos 2.2.1 等主流技术栈开发的B2B2C电商系统，遵循SpringBoot 编程思想，高度模块化和可配置化。具备服务发现、配置、熔断、限流、降级、监控、多级缓存、分布式事务、等功能。
+
+## 标准产品介绍
+![img.png](doc/img/常见问题及处理/img.png)
+![img.png](doc/img/常见问题及处理/img2.png)
+![img_1.png](doc/img/常见问题及处理/img_1.png)
+
+## 总体架构
+
+![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/architecture.jpg)
+
+
+
 ## 功能版本介绍
 
 <a href="https://code.legendshop.cn">详情见官方网站>>>>>>></a>
@@ -102,7 +149,7 @@ Legend Cloud 是一款企业级微服务架构电商系统，全面拥抱Spring�
 - 持久层框架： Jpa-Plus(Spring Data Jpa & Mybatis Plus,自主研发，聚合两大持久层框架有点并升级，简单易用，可持续优化)
 - API 网关：Spring Cloud Gateway
 - 服务注册&发现和配置中心: Alibaba Nacos
-- 服务消费：Spring Cloud OpenFeign 
+- 服务消费：Spring Cloud OpenFeign
 - 负载均衡：Spring Cloud Loadbalancer
 - 服务熔断&降级&限流：Alibaba Sentinel
 - 服务监控：Spring Boot Admin
@@ -114,6 +161,11 @@ Legend Cloud 是一款企业级微服务架构电商系统，全面拥抱Spring�
 - 文件服务：阿里云 OSS / Minio
 - 日志中心：ELK
 - 日志收集：Logback
+
+
+## 启动文档
+- <a href="https://gitee.com/legendmall/legend-cloud/wikis/pages2/preview?sort_id=9258245&doc_id=4914160"> 快速启动（后端项目） </a>
+
 
 ## 版本号说明
 \(^o^)/~本系统版本号，分为三段
@@ -165,7 +217,6 @@ legend-cloud
 └──  └── legendshop-common-util --  公工具类
 ```
 
-
 ## 相关项目地址
 
 - B2C单体版地址(暂未开源,敬请期待)：[https://gitee.com/legendmall/legend](https://gitee.com/legendmall/legend)
@@ -201,12 +252,17 @@ legend-cloud
 
 计划升级到spring cloud 2023
 
+## 与行业标杆企业协同进化，提速发展进程
+![img_4.png](doc/img/常见问题及处理/img_4.png)
+
 ## 交流反馈
 
 - Legend Cloud 官网 https://code.legendshop.cn
 - Legend Cloud官方技术QQ 1群：96642931
 - Legend Cloud官方技术QQ 2群：190339088
-- 如需购买商业高级版源码，请联系商务微信
+- 如需购买商业高级版源码，请联系商务微信 18028664618
+
+
 
 ## 特别鸣谢\(^o^)/~\(^o^)/~\(^o^)/~
 - [广州朗尊软件科技有限公司](https://www.legendshop.cn)
