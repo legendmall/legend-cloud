@@ -165,6 +165,7 @@ legend-cloud
 └──  └── legendshop-common-util --  公工具类
 ```
 
+
 ## 相关项目地址
 
 - B2C单体版地址(暂未开源,敬请期待)：[https://gitee.com/legendmall/legend](https://gitee.com/legendmall/legend)
