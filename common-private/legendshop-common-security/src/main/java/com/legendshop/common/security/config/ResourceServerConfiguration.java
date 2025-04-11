@@ -29,9 +29,9 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
  */
 @RequiredArgsConstructor
 @EnableMethodSecurity(jsr250Enabled = true, securedEnabled = true)
-@EnableWebSecurity
+//@EnableWebSecurity
 // Security debug模式
-//@EnableWebSecurity(debug = true)
+@EnableWebSecurity(debug = true)
 public class ResourceServerConfiguration {
 
 	private final OpaqueTokenIntrospector customizeOpaqueTokenIntrospector;
