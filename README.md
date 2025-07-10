@@ -72,7 +72,8 @@
 
 获取：① 系统Demo体验 ② 商业授权方案 ③ 项目合作通道<br>
 
-
+## 📞技术交流群
+![84bbd4110df830b60e0617dba30c134.png](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/84bbd4110df830b60e0617dba30c134.png)
 
 [// 冯]: # ()
 
@@ -81,7 +82,7 @@
 - 商城商家端：https://mall-shop.legendshop.cn/
 - 扫码公众号获取体验账号
 - ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-code.jpg)
-  ![imageonline-co-gifimage.gif](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/imageonline-co-gifimage.gif)
+  ![imageonline-co-gifimage (2).gif](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/imageonline-co-gifimage%20%282%29.gif)
 - 以下为微信小程序、H5端（扫码获取平台端、商家端体验账号）<br>
   ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/mp-code.jpg)
   ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-h5-code.png)
