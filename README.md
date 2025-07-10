@@ -57,7 +57,7 @@
 ## 📃商城系统介绍
 
 我们具有丰富多元的商业模式可以解决您任何使用场景的需求，服务的范围有s2b2c供应链商城、b2b2c多商户商城、社区拼团、社区团购、b2c单商户商城、b2b批发商城等等，众多商业模式中并含有限时秒杀、优惠券、满减、砍价、多级分销、套餐、拼团、消费返利、平台抽佣、储值、同城配送、到店自提、库存、代销、还有个性化diy装修服务， 自带供应链，客服体系，高效管理，轻松运营
-
+ 
 ## 📞关键内容
 【企业级开源商城系统，助力电商业务高效启航！】 <br>
 ✔️ 基于主流技术框架开发，代码规范/注释清晰/架构严谨<br>
@@ -65,11 +65,14 @@
 ✔️ 商业版源码即购即用，提供完整技术文档与接口说明<br>
 ✔️ 专业团队支持系统演示、定制二开与深度合作<br>
 扫码添加技术顾问微信（备注"商城合作"，"购买源码"，"系统演示/试用"  等等）<br>
+
 ![cocoimg.jpg](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/cocoimg.jpg)
 ![xiaoyang.jpg](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/xiaoyang.jpg) <br>
+
 获取：① 系统Demo体验 ② 商业授权方案 ③ 项目合作通道<br>
 
-
+## 📞技术交流群
+![84bbd4110df830b60e0617dba30c134.png](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/84bbd4110df830b60e0617dba30c134.png)
 
 [// 冯]: # ()
 
@@ -81,14 +84,14 @@
 
 ## 演示地址
 ## 🔗演示地址
-- 商城后台管理：https://mall-admin.legendshop.cn/
-  - 商城商家端：https://mall-shop.legendshop.cn/
-  - 以下为微信小程序、公众号、H5端（扫码获取平台端、商家端体验账号）
-
-
-![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/mp-code.jpg)
-![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-code.jpg)
-![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-h5-code.png)
+-   商城后台管理：https://mall-admin.legendshop.cn/
+- 商城商家端：https://mall-shop.legendshop.cn/
+- 扫码公众号获取体验账号
+- ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-code.jpg)
+  ![imageonline-co-gifimage (2).gif](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/imageonline-co-gifimage%20%282%29.gif)
+- 以下为微信小程序、H5端（扫码获取平台端、商家端体验账号）<br>
+  ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/mp-code.jpg)
+  ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-h5-code.png)
 
 > 部分功能演示视图，正在添加中
 
