@@ -66,8 +66,10 @@
 ✔️ 商业版源码即购即用，提供完整技术文档与接口说明<br>
 ✔️ 专业团队支持系统演示、定制二开与深度合作<br>
 扫码添加技术顾问微信（备注"商城合作"，"购买源码"，"系统演示/试用"  等等）<br>
+
 ![cocoimg.jpg](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/cocoimg.jpg)
 ![xiaoyang.jpg](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/xiaoyang.jpg) <br>
+
 获取：① 系统Demo体验 ② 商业授权方案 ③ 项目合作通道<br>
 
 
@@ -75,14 +77,14 @@
 [// 冯]: # ()
 
 ## 🔗演示地址
-- 商城后台管理：https://mall-admin.legendshop.cn/
-  - 商城商家端：https://mall-shop.legendshop.cn/
-  - 以下为微信小程序、公众号、H5端（扫码获取平台端、商家端体验账号）
-
-
-![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/mp-code.jpg)
-![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-code.jpg)
-![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-h5-code.png)
+-   商城后台管理：https://mall-admin.legendshop.cn/
+- 商城商家端：https://mall-shop.legendshop.cn/
+- 扫码公众号获取体验账号
+- ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-code.jpg)
+  ![imageonline-co-gifimage.gif](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/imageonline-co-gifimage.gif)
+- 以下为微信小程序、H5端（扫码获取平台端、商家端体验账号）<br>
+  ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/mp-code.jpg)
+  ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-h5-code.png)
 
 > 部分功能演示视图，正在添加中
 
