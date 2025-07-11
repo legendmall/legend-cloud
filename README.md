@@ -38,14 +38,34 @@
 
 ---
 [// 冯]: # ()
-<div id="fzq">
+<style>
+  @keyframes kaimu{
+	0%{
+		transform: rotate(0.5turn);
+	}
+	100%{
+		transform: rotate(1turn);
+	}
+}
+@keyframes kaimu2{
+	0%{
+		right:50%;
+	}
+	100%{
+		right:100%;
+	}
+}
+</style>
+<div id="fzq" class="donghua">
     <p style="padding: 0 1em;
       padding-top: 0px;
-      padding-right: 1em;
+      padding-right: 1em; 
       padding-bottom: 0px;
       padding-left: 1em;
       color: #6a737d;
-      border-left: 0.25em solid #dfe2e7;">
+      border-left: 0.25em solid #dfe2e7;
+     );
+">
         在现有条件允许的范围内，应当尽可能提升Web开发团队的工作效能，充分释放其技术潜力。
     </p>
     <p style="padding-top:10px">
@@ -69,8 +89,10 @@
 
 ![cocoimg.jpg](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/cocoimg.jpg)
 ![xiaoyang.jpg](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/xiaoyang.jpg) <br>
-
+<p class="donghua">
 获取：① 系统Demo体验 ② 商业授权方案 ③ 项目合作通道<br>
+</p>
+
 
 ## 📞技术交流群
 ![84bbd4110df830b60e0617dba30c134.png](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/84bbd4110df830b60e0617dba30c134.png)
@@ -81,7 +103,7 @@
 -   商城后台管理：https://mall-admin.legendshop.cn/
 - 商城商家端：https://mall-shop.legendshop.cn/
 - 扫码公众号获取体验账号
-- ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-code.jpg)
+- ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/wp-code.jpg)<br>
   ![imageonline-co-gifimage (2).gif](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/imageonline-co-gifimage%20%282%29.gif)
 - 以下为微信小程序、H5端（扫码获取平台端、商家端体验账号）<br>
   ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/mp-code.jpg)
@@ -269,3 +291,61 @@ legend-cloud
 
 ## 特别鸣谢\(^o^)/~\(^o^)/~\(^o^)/~
 - [广州朗尊软件科技有限公司](https://www.legendshop.cn)
+
+<script>
+  // JavaScript Document
+window.addEventListener("load",function(){
+		an2();
+		function an2(){
+			var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+			var hig= window.innerHeight;
+			var htmlHeight = window.innerHeight;
+			var min =scrollTop+htmlHeight;
+			var donghua =$(".donghua");
+			donghua.each(function(i){
+				var gd = donghua.eq(i).offset().top;	
+				if(min>gd){
+					$(this).css({
+						"transform": "translate(0,0)",
+					"opacity": "1",
+					"transition": "all 1s .2s"
+					});
+				}else if(donghua.eq(i).hasClass("zuo")){
+					$(this).css({
+						"transform": "translate(-750px,0)",
+					"opacity": "0",
+					"transition": "all 1s .2s"
+					});
+				}
+				else if(donghua.eq(i).hasClass("you")){
+					$(this).css({
+						"transform": "translate(750px,0)",
+					"opacity": "0",
+					"transition": "all 1s .2s"
+					});
+				}
+				else if(donghua.eq(i).hasClass("sha")){
+					$(this).css({
+						"transform": "translate(0,-750px)",
+					"opacity": "0",
+					"transition": "all 1s .2s"
+					});
+				}
+				else{
+					$(this).css({
+						"transform": "translate(0,350px)",
+					"opacity": "0",
+					"transition": "all 1s .2s"
+					});
+				}
+				
+			});			
+		}
+		
+	window.addEventListener("scroll",an2);
+});
+	
+
+
+
+</script>  
