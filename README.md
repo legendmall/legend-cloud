@@ -1,9 +1,10 @@
 [comment]: <> (<p align="center"><img src="./readme/legend-logo.png" height="300" width="400" alt="logo"/></p>)
 
 [comment]: <> (![输入图片说明]&#40;./readme/legend-logo.jpg&#41;)
-
+[// 冯]: # ()
 [//]: # (![输入图片说明]&#40;https://dev6-images.legendshop.cn/miniprogram/static/images/readme/legend-logo.jpg&#41;)
 
+[// 冯]: # ()
 <h1 align="center">基于Spring Cloud Alibaba的企业级开源商城系统</h1>
 <h4 align="center">全新升级 &nbsp; | &nbsp;  SpringBoot3.1.x  &nbsp; | &nbsp;  JDK17 &nbsp; | &nbsp; 全新Spring Cloud版本</h4>
 <h4 align="center">基于 Spring Authorization Server 全新适配 OAuth 2.1 协议的企业级微服务架构</h4>
@@ -35,6 +36,7 @@
 
 <h3 align="center"> 如果您觉得有帮助，请点右上角 "Star" 支持一下，万分感谢！</h3>
 ---
+[// 冯]: # ()
 <div id="fzq">
     <p style="padding: 0 1em;
       padding-top: 0px;
@@ -51,128 +53,10 @@
     <a href="https://www.legendshop.cn/">https://www.legendshop.cn/</a>
 </div>
 
-# Legend Cloud · 企业级 B2B 供应链 / S2B2C 微服务商城
+[// 冯]: # ()
+## 📃商城系统介绍
 
-> 面向企业级 **B2B 供应链、S2B2C 私域、B2B2C 多商户、MRO 采购、央企国企内购、员工福利商城** 场景的 Spring Cloud Alibaba 微服务电商系统。
-> 与通用 B2C 商城不同，Legend Cloud 聚焦「企业间交易 + 供应链协同」这一细分赛道。
-
-## 一、项目简介
-
-Legend Cloud 是朗尊软件（Legendshop）基于 **Spring Cloud Alibaba** 研发的微服务架构企业级商城系统，采用前后端分离设计，面向中大型企业的数字化采购、私域分销与多商户运营需求。
-
-核心能力覆盖：
-
-- **B2B2C 多商户**：平台方 + 多商家统一经营，支持商家独立结算。
-- **S2B2C 私域**：供应链（S）赋能渠道（B）直达消费者（C），支持分销、代理、内购。
-- **B2B 订货 / MRO 采购**：企业间大宗商品订货、工业品（MRO）采购协同。
-- **央企国企内购**：面向大型集团的员工内购 / 福利商城场景。
-- **员工福利商城**：积分兑换、福利发放、AI 客服一体化。
-## 二、生态矩阵（Legendmall 组织）
-
-Legend Cloud 由多个职责清晰的子仓组成，建议配合使用：
-
-| 仓库 | 定位 | 语言 | 说明 |
-|------|------|------|------|
-| [legend-cloud](https://gitee.com/legendmall/legend-cloud) | 后端主仓（微服务） | Java | 核心业务服务 |
-| [legend-cloud-admin-ui](https://gitee.com/legendmall/legend-cloud-admin-ui) | 平台管理端 UI | JavaScript | 运营后台 |
-| [legend-cloud-shop-ui](https://gitee.com/legendmall/legend-cloud-shop-ui) | 商家端 UI | JavaScript | 商家工作台 |
-| [legend-cloud-user-ui](https://gitee.com/legendmall/legend-cloud-user-ui) | 用户端 UI（Uni-App） | JavaScript | H5 / 小程序 |
-| [legendshop](https://gitee.com/legendmall/legendshop) | Legendshop 商城（福利/积分/分销） | Java | 积分福利场景 |
-| [legendshop-ai-mall](https://gitee.com/legendmall/legendshop-ai-mall) | LegendShop AI 商城 | Java | AI 电商 / 智能推荐 |
-
-> 前端 UI 仓库（admin / shop / user）star 活跃度最高，推荐从「本地一键启动前端」开始体验。
-
----
-
-## 三、技术栈
-
-- **后端**：Spring Boot 3.x / Spring Cloud Alibaba（Nacos、Sentinel、Seata）、OAuth2.1、MyBatis-Plus
-- **前端**：Vue 3 + Element Plus（admin/shop）、Uni-App（user）
-- **数据**：MySQL 8.x、Redis、Elasticsearch、RabbitMQ
-- **基础设施**：Docker / Docker Compose、Nginx
-- **JDK**：17+
-
----
-
-## 四、核心特性
-
-- 多角色体系：平台运营、商家、采购方、消费者、分销员
-- 供应链协同：选品、采购单、供应商管理、库存协同
-- 私域分销：裂变分销、代理层级、内购专属价
-- 企业采购：B2B 订货、MRO 品类、招标询价比价
-- 福利场景：积分商城、员工内购、AI 智能客服
-- 多租户 / 多商户：独立结算、独立店铺
-
----
-
-## 五、快速开始
-
-### 方式一：Docker 一键启动（推荐）
-
-```bash
-git clone https://gitee.com/legendmall/legend-cloud.git
-cd legend-cloud
-docker-compose up -d
-```
-
-> 启动后访问说明、默认账号配置见各子仓 README 与部署文档。
-
-### 方式二：本地部署
-
-1. 安装 JDK 17、MySQL 8.x、Redis、RabbitMQ、Elasticsearch
-2. 导入 SQL 初始化脚本（仓库 `sql/` 目录）
-3. 修改 `application.yml` 中的数据库连接与中间件地址
-4. 启动网关与各微服务模块
-5. 启动前端 UI 仓库（见上方生态矩阵）
-
----
-
-## 六、客户案例
-
-Legend Cloud 已在多家大型集团落地，覆盖钢铁、烟草、金融、汽车、地产等行业：
-
-- **大型钢铁集团**：集团级数字化采购与供应链协同平台
-- **烟草行业客户**：千万级活跃用户的积分 / 员工福利商城
-- **国有商业银行**：内部员工福利与积分商城
-- **头部汽车集团**：经销商私域分销体系
-- **地产 / 物业集团**：社区周边 B2B2C 多商户运营
-
-> 具体业务规模数据将在获得客户授权后于文档站补充。如需行业解决方案资料，请通过官方商务渠道联系。
-
----
-
-## 七、安全说明
-
-- 本项目 **README 及文档中不包含任何明文默认登录口令**。
-- 本地部署首次启动时，请务必修改配置文件中的默认密码，严禁使用弱口令。
-- 演示环境体验账号请通过官方渠道获取，请勿将测试账号公开。
-
----
-
-## 八、贡献指南
-
-欢迎提交 Issue 与 Pull Request。
-
-- 提交 Issue 时请描述复现步骤、环境版本与期望行为。
-- 提交 PR 前请先同步最新 `master` 并说明改动目的。
-- 文档、示例、翻译类贡献同样欢迎。
-
-> 项目维护方会定期响应 Issue 与 PR。
-
----
-
-## 九、相关资源
-
-- 官网：https://www.legendshop.cn/
-- SaaS 平台（小羊云商）：https://saas.legendshop.cn/
-- 开发者文档：https://develop.legendshop.cn/
-
----
-
-## 十、开源协议
-
-本项目基于 **AGPL-3.0** 协议开源。商业使用请查阅协议条款或联系官方获取商业授权。
-
+我们具有丰富多元的商业模式可以解决您任何使用场景的需求，服务的范围有s2b2c供应链商城、b2b2c多商户商城、社区拼团、社区团购、b2c单商户商城、b2b批发商城等等，众多商业模式中并含有限时秒杀、优惠券、满减、砍价、多级分销、套餐、拼团、消费返利、平台抽佣、储值、同城配送、到店自提、库存、代销、还有个性化diy装修服务， 自带供应链，客服体系，高效管理，轻松运营
  
 ## 📞关键内容
 【企业级开源商城系统，助力电商业务高效启航！】 <br>
@@ -190,11 +74,11 @@ Legend Cloud 已在多家大型集团落地，覆盖钢铁、烟草、金融、�
 ## 📞技术交流群
 ![84bbd4110df830b60e0617dba30c134.png](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/84bbd4110df830b60e0617dba30c134.png)
 
+[// 冯]: # ()
 
-## 本地账号
-- 商城后台管理：admin a123456
-- 商城商家端：13800138000 a123456
-- H5端： 19820286048 a123456（建议自行注册和管理）
+## 本地账号（安全提示）
+> ⚠️ 演示与本地环境的默认初始账号仅用于快速体验，请务必在首次部署后修改初始密码；生产环境请使用强密码并开启二次验证。默认体验账号可通过下方扫码获取，具体部署与初始化说明见 wiki 文档。
+
 - 以下为微信H5端、小程序、公众号（扫码获取平台端、商家端体验账号）
 
 ## 演示地址
@@ -225,7 +109,7 @@ Legend Cloud 已在多家大型集团落地，覆盖钢铁、烟草、金融、�
   ![b2ad49985dbc735f679649c815cfe9e.png](doc/img/常见问题及处理/b2ad49985dbc735f679649c815cfe9e.png)
   ![img_5.png](doc/img/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%A4%84%E7%90%86/img_5.png)
 
-
+[// 冯]: # ()
 ## 🏢企业级微服务架构电商系统
 
 Legend Cloud 是一款企业级微服务架构电商系统，全面拥抱Spring全家桶，基于Spring 6.0.13 、Spring Boot 3.1.5、Spring Cloud 2022.0.4、Spring Authorization Server 1.1.3、Spring Cloud Alibaba 2022.0.0.0、Nacos 2.2.1 等主流技术栈开发的B2B2C电商系统，遵循SpringBoot 编程思想，高度模块化和可配置化。具备服务发现、配置、熔断、限流、降级、监控、多级缓存、分布式事务、等功能。
@@ -238,7 +122,6 @@ Legend Cloud 是一款企业级微服务架构电商系统，全面拥抱Spring�
 ## 总体架构
 
 ![输入图片说明](https://dev6-images.legendshop.cn/miniprogram/static/images/readme/architecture.jpg)
-
 
 
 ## 功能版本介绍
@@ -270,7 +153,7 @@ Legend Cloud 是一款企业级微服务架构电商系统，全面拥抱Spring�
 
 ### 系统所涉及相关技术
 
-- 持久层框架： Jpa-Plus(Spring Data Jpa & Mybatis Plus,自主研发，聚合两大持久层框架有点并升级，简单易用，可持续优化)
+- 持久层框架： Jpa-Plus(Spring Data Jpa & Mybatis Plus,自主研发，聚合两大持久层框架优点并升级，简单易用，可持续优化)
 - API 网关：Spring Cloud Gateway
 - 服务注册&发现和配置中心: Alibaba Nacos
 - 服务消费：Spring Cloud OpenFeign
@@ -356,7 +239,7 @@ legend-cloud
 
 ## 授权协议
 
-> 本项目基于 APGL 3.0 开源协议，商业项目请联系授权，并遵守以下补充条款
+> 本项目基于 AGPL-3.0 开源协议，商业项目请联系授权，并遵守以下补充条款
 
 - 不得将本软件应用于危害国家安全、荣誉和利益的行为，不能以任何形式用于非法为目的的行为。
 - 在延伸的代码中（修改现有源代码衍生的代码中）需要带有原来代码中的协议、版权声明和其他原作者 规定需要包含的说明（请尊重原作者的著作权，不要删除或修改文件中的Copyright和@author信息） 更不要，全局替换源代码中的 Legendshop Cloud等字样，否则你将违反本协议条款承担责任。
@@ -385,7 +268,6 @@ legend-cloud
 - Legend Cloud官方技术QQ 1群：96642931
 - Legend Cloud官方技术QQ 2群：190339088
 - 如需购买商业高级版源码，请联系商务微信 18028664618
-
 
 
 ## 特别鸣谢\(^o^)/~\(^o^)/~\(^o^)/~
