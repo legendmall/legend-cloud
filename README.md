@@ -246,6 +246,21 @@ legend-cloud
 - 前端-商家端工程Github地址：[https://gitee.com/legendmall/legend-cloud-shop-ui](https://github.com/legendmall/legend-cloud-shop-ui)
 - 前端-用户端工程Github地址：[https://gitee.com/legendmall/legend-cloud-user-ui](https://github.com/legendmall/legend-cloud-user-ui)
 
+## 🧩 Legend Cloud 生态矩阵
+
+Legend Cloud 由后端主仓与多个前端仓、衍生仓组成，建议按需 Star 你正在使用的仓库：
+
+| 仓库 | 定位 | 技术栈 |
+|------|------|--------|
+| [legend-cloud](https://gitee.com/legendmall/legend-cloud) | 企业级微服务商城（后端主仓） | Java / Spring Cloud Alibaba |
+| [legend-cloud-admin-ui](https://gitee.com/legendmall/legend-cloud-admin-ui) | 平台管理端 UI | Vue / Element |
+| [legend-cloud-shop-ui](https://gitee.com/legendmall/legend-cloud-shop-ui) | 商家端 UI | Vue / Element |
+| [legend-cloud-user-ui](https://gitee.com/legendmall/legend-cloud-user-ui) | 用户端 UI（Uni-App） | Vue / Uni-App |
+| [legendshop](https://gitee.com/legendmall/legendshop) | Legendshop 商城（福利 / 积分 / 分销） | Java |
+| [legendshop-ai-mall](https://gitee.com/legendmall/legendshop-ai-mall) | Legendshop AI 商城（AI 电商赛道） | Java |
+
+> 想完整体验，请优先 Star 后端主仓 legend-cloud，再按需 Star 对应前端仓。欢迎在对应仓库提 Issue / PR。
+
 ## 技术解析
 > 后续阶段性推出一些企业级验证的技术解析文章，敬请期待
 
