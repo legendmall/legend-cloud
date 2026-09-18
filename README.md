@@ -87,9 +87,9 @@
 | 🏪 **商家端（PC）** | https://bbc7-shop.legendshop.cn | `18123456789` / `19123456789` |
 | 🖥️ **用户端（PC）** | https://bbc7-pc.legendshop.cn | `19000000001` |
 | 📱 **用户端（H5）** | https://bbc7-m.legendshop.cn | `19000000001` |
-| 🔌 **供应链开放平台** | https://open.legendshop.cn | `LegendTest0175` / `Test_240318` |
+| 🔌 **供应链开放平台** | https://open.legendshop.cn | 需注册开放平台并创建应用（见 [legendshop-open-api](https://gitee.com/legendmall/legendshop-open-api)） |
 
-> 商城四端体验密码统一为 `Aa123456`；开放平台账号为 `LegendTest0175 / Test_240318`。
+> 商城四端体验密码统一为 `Aa123456`；开放平台账号为 `（账号需自行注册申请）`。
 > ⚠️ 演示环境为示例数据、不承载真实交易，**请勿录入真实业务或支付信息**，演示数据可能不定期重置。
 
 
