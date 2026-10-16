@@ -67,9 +67,8 @@
 | # | 主打 | 说明 |
 |:--|------|------|
 | ① | **Legendshop 商城系统开源** | B2B2C 多商户 / S2B2C 私域电商完整源码（后端 + 平台端 + 商家端 + 用户端），AGPL-3.0 协议开源，微服务 + 多租户架构，clone 下来就能跑 |
-| ② | **带供应链 API 的商城系统** | 内置供应链开放平台，商品 / 库存 / 订单 / 结算全链路 Open API —— 商城不只是卖货前台，而是**能直接接进上游供应商体系**的采购履约入口，适配 MRO 工业品集采、央企国企内购、员工福利商城等场景 |
-| ③ | **带 AI 的开源商城** | P2S2C 双层漏斗供需匹配推荐算法（已完成国家网信办算法备案）、AI 智能客服、智能选品与推荐（见 [legendshop-ai-mall](https://gitee.com/legendmall/legendshop-ai-mall)） |
-| [legendshop-open-api](https://gitee.com/legendmall/legendshop-open-api) | 供应链开放平台 OpenAPI（87 个真实接口） + SDK | Java / Node |
+| ② | **带供应链 API 的商城系统** | 内置供应链开放平台，商品 / 库存 / 订单 / 结算全链路 Open API —— 商城不只是卖货前台，而是**能直接接进上游供应商体系**的采购履约入口，适配 MRO 工业品集采、央企国企内购、员工福利商城等场景 👉 [legendshop-open-api](https://gitee.com/legendmall/legendshop-open-api)：**87 个真实接口** + OpenAPI 3.0 规范 + Java / Node SDK |
+| ③ | **带 AI 的开源商城** | 推荐算法、AI 智能客服、供需智能匹配。推荐算法已按《互联网信息服务算法推荐管理规定》完成备案（官方名称「朗尊小羊云商 AI 个性化推送类算法」，备案编号 **网信算备 440105631092802260019 号**，可在国家网信办公告附件中核验） 👉 [legendshop-ai-mall](https://gitee.com/legendmall/legendshop-ai-mall) |
 
 > **一句话定位：Legendshop = 开源商城系统 + 供应链开放 API + AI 电商能力，三位一体。**
 >
